@@ -1,0 +1,52 @@
+/*rem and em do not depend on html font size in media queries! Instead, 1rem = 1em = 16px*/
+
+/*Below 1344px (Smaller desktops)*/
+@media (max-width: 84em) {
+}
+
+/*Below 1200px (Landscape tablets)*/
+@media (max-width: 75em) {
+}
+
+/*Below 944 (Tablets)*/
+@media (max-width: 59em) {
+}
+
+/*Below 704px (Smaller tablets)*/
+@media (max-width: 44em) {
+  h1 {
+    font-size: 2.3em;
+  }
+
+  .number {
+    font-size: 4.3em;
+    width: 5.3em;
+  }
+
+  .btn {
+    font-size: 1.6em;
+    padding: 1em 1.5em;
+  }
+}
+
+/*Below 544px (Phones)*/
+@media (max-width: 34em) {
+  h1 {
+    font-size: 2em;
+  }
+  .number {
+    font-size: 4em;
+    width: 5em;
+  }
+
+  .btn {
+    font-size: 1.5em;
+    padding: 1em 1.5em;
+  }
+
+  .right {
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
