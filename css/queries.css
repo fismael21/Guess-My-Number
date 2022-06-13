@@ -34,19 +34,34 @@
   h1 {
     font-size: 2em;
   }
+
   .number {
     font-size: 4em;
     width: 5em;
   }
 
+  .guess {
+    font-size: 1.2em;
+    padding: 2em;
+    width: 10em;
+  }
+
   .btn {
-    font-size: 1.5em;
+    font-size: 1em;
     padding: 1em 1.5em;
   }
 
   .right {
-    font-size: 1.5em;
+    font-size: 1.2em;
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .again {
+    left: 1em;
+  }
+
+  .between {
+    font-size: 1.2em;
   }
 }
